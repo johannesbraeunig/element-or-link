@@ -30,7 +30,7 @@ const App = () => {
 {
   to: string,
   children: node,
-  element?: string || node, // default is `div`
+  element?: string || node, // default is `span`
   displayElement?: boolean, // default is false
 }
 ```

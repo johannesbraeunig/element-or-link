@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ElementOrLink = ({
   to,
   displayElement = false,
-  element = 'div',
+  element = 'span',
   ...props
 }) => {
   const Element = element;

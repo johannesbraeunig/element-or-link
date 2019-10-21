@@ -8,22 +8,6 @@ exports[`<ElementOrLink /> renders a div 1`] = `
 </div>
 `;
 
-exports[`<ElementOrLink /> renders a div even if a link is provided 1`] = `
-<div>
-  <div>
-    Hey!
-  </div>
-</div>
-`;
-
-exports[`<ElementOrLink /> renders a div if link is an empty string 1`] = `
-<div>
-  <div>
-    Hey!
-  </div>
-</div>
-`;
-
 exports[`<ElementOrLink /> renders a link 1`] = `
 <div>
   <a
@@ -35,6 +19,22 @@ exports[`<ElementOrLink /> renders a link 1`] = `
 `;
 
 exports[`<ElementOrLink /> renders a span 1`] = `
+<div>
+  <span>
+    Hey!
+  </span>
+</div>
+`;
+
+exports[`<ElementOrLink /> renders a span even if a link is provided 1`] = `
+<div>
+  <span>
+    Hey!
+  </span>
+</div>
+`;
+
+exports[`<ElementOrLink /> renders a span if link is an empty string 1`] = `
 <div>
   <span>
     Hey!

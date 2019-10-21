@@ -5,14 +5,14 @@ import { StaticRouter } from 'react-router-dom';
 import { ElementOrLink } from './';
 
 describe('<ElementOrLink />', () => {
-  it('renders a div', () => {
+  it('renders a span', () => {
     const { container } = render(<ElementOrLink>Hey!</ElementOrLink>);
     expect(container).toMatchSnapshot();
   });
 
-  it('renders a span', () => {
+  it('renders a div', () => {
     const { container } = render(
-      <ElementOrLink element="span">Hey!</ElementOrLink>
+      <ElementOrLink element="div">Hey!</ElementOrLink>
     );
     expect(container).toMatchSnapshot();
   });
@@ -26,7 +26,7 @@ describe('<ElementOrLink />', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('renders a div even if a link is provided', () => {
+  it('renders a span even if a link is provided', () => {
     const { container } = render(
       <StaticRouter>
         <ElementOrLink to="/hello" displayElement={true}>
@@ -37,7 +37,7 @@ describe('<ElementOrLink />', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('renders a div if link is an empty string', () => {
+  it('renders a span if link is an empty string', () => {
     const { container } = render(
       <StaticRouter>
         <ElementOrLink to="">Hey!</ElementOrLink>
