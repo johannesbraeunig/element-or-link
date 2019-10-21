@@ -6,6 +6,11 @@
   "homepage": "https://github.com/johannesbraeunig/element-or-link",
   "author": "Johannes Bräunig <johannes.braeunig@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react-router",
+    "hyperlink or any element"
+  ],
   "private": false,
   "scripts": {
     "test": "jest"
