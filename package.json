@@ -1,8 +1,9 @@
 {
   "name": "element-or-link",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "src/index.js",
   "repository": "git@github.com:johannesbraeunig/element-or-link.git",
+  "homepage": "https://github.com/johannesbraeunig/element-or-link",
   "author": "Johannes Bräunig <johannes.braeunig@gmail.com>",
   "license": "MIT",
   "private": false,
