@@ -2,6 +2,8 @@
 
 A simple React component to render a hyperlink (using react-routers `<Link />`) or any html element depending on if a `to` prop is provided.
 
+Example: https://codesandbox.io/s/wizardly-dust-6keed
+
 ## Dependencies
 
 - [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
@@ -32,5 +34,9 @@ const App = () => {
   displayElement?: boolean, // default is false
 }
 ```
+
+## Example on Codesandbox
+
+[https://codesandbox.io/s/wizardly-dust-6keed](https://codesandbox.io/s/wizardly-dust-6keed)
 
 ### 🙋‍♂️ Contact me on [Twitter](https://twitter.com/joschie)
