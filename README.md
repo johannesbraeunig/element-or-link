@@ -40,3 +40,7 @@ const App = () => {
 [https://codesandbox.io/s/wizardly-dust-6keed](https://codesandbox.io/s/wizardly-dust-6keed)
 
 ### 🙋‍♂️ Contact me on [Twitter](https://twitter.com/joschie)
+
+## Publish
+
+`yarn publish`
