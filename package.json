@@ -16,15 +16,15 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
-    "@testing-library/react": "^9.3.0",
-    "babel-jest": "^24.9.0",
-    "jest": "^24.9.0",
-    "prettier": "^1.18.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@testing-library/react": "^10.0.2",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7",
+    "prettier": "^2.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2"
   },
   "peerDependencies": {
